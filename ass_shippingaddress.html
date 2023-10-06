@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .empty{margin-left: 88px;
+    }
+    .req::after{
+      content: '*';
+      color: red;
+
+    }
+    .check{
+      margin-left: 40px;
+    }
+  </style>
+</head>
+<body>
+  <h3>shipping address</h3>
+  <form>
+        <label class="req">Phone Number 
+        
+        </label>
+        <input type="number" placeholder="1234" required>
+        <br><br>
+        <label>Company
+          <input type="text" >
+        </label>
+        <br><br>
+        <label class="req">country
+        </label>
+        <input type="text" placeholder="Australia" required>
+        <br><br>
+        <label>Address finder
+          <input type="text" placeholder="Victoria Street,RichmondVIC,Australia">
+        </label><br><br>
+        <label>street address
+          <input type="text" placeholder="victoria street">
+        </label>
+        <br><br>
+        <label class="empty">
+          <input type="text" placeholder="">
+        </label><br><br>
+        <label class="req">suburb
+        </label>     
+        <input type="text" placeholder="richmond" required>
+        <br><br>
+        <label class="req">zip/postal code
+        </label>
+        <input type="number" placeholder="312" required>
+        <br><br>
+<div class="check">
+  <input type="checkbox" name="" id="">
+
+  <label for="checkbox">save in address book
+   </label>
+</div>
+<div>
+  <input type="submit">
+</div>
+
+  </form>
+</body>
+</html>
